@@ -18,6 +18,10 @@ The timer plugin records time on a button press.
 ### Install
 
 ```bash
+$ cd timer
+```
+
+```bash
 $ pnpm i
 ```
 
