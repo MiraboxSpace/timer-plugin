@@ -14,7 +14,6 @@
 const Plugin = {
   UUID: 'timer',
   version: '2.0',
-  APIVersion: '1.0',
   Icon: 'images/icon.svg',
   i18n: {
     en: {
@@ -62,4 +61,4 @@ const Actions = [
 ];
 
 // !! 请勿修改 !!
-module.exports = { PUUID: Plugin.UUID, Version: Plugin.version, APIVersion: Plugin.APIVersion, CategoryIcon: Plugin.Icon, i18n: Plugin.i18n, Actions };
+module.exports = { PUUID: Plugin.UUID, Version: Plugin.version, CategoryIcon: Plugin.Icon, i18n: Plugin.i18n, Actions };
